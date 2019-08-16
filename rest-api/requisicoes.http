@@ -1,0 +1,29 @@
+GET http://localhost:3000/portfolio/3
+
+###
+
+GET http://localhost:3000/portfolio/
+
+###
+
+POST http://localhost:3000/portfolio/
+Content-Type: application/json
+
+{
+  "descricao": "Desenvolvimento de Aplicações",
+  "detalhes": "Tecnologias JavaScript, NodeJS, React Native e MySQL"
+}
+
+###
+
+DELETE http://localhost:3000/portfolio/7
+
+###
+
+PUT http://localhost:3000/portfolio/1
+Content-Type: application/json
+
+{
+  "descricao": "Desenvolvimento de websites",
+  "detalhes": "Tecnologias JavaScript, NodeJS, Express e MySQL"
+}
